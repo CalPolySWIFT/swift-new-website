@@ -3,13 +3,13 @@ module.exports = {
   tagline: 'Students With an Interest in the Future of Technology',
   // tagline: 'STUDENTS WITH AN INTEREST IN THE FUTURE OF TECHNOLOGY',
   url: 'https://github.com/CalPolySWIFT',
-  baseUrl: '/swift-new-website/', /* for production development */ /*originally was /swift/*/ 
+  baseUrl: '/swift-website-2021/', /* for production development */ /*originally was /swift/*/ 
   // baseUrl: '/', /* for local development */
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/SWIFT_favicon.ico',
   organizationName: 'CalPolySWIFT', // Usually your GitHub org/user name.
-  projectName: 'swift-new-website', // Usually your repo name.
+  projectName: 'swift-website-2021', // Usually your repo name.
   themeConfig:
    {
     navbar: {
