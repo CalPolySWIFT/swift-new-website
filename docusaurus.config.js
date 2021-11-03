@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Students With an Interest in the Future of Technology',
   // tagline: 'STUDENTS WITH AN INTEREST IN THE FUTURE OF TECHNOLOGY',
   url: 'https://github.com/CalPolySWIFT',
-  baseUrl: '/swift-website-2021/', /* for production development */ /*originally was /swift/*/ 
+  baseUrl: '/', /* for production development */ /*originally was /swift/*/ 
   // baseUrl: '/', /* for local development */
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
