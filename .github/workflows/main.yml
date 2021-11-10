@@ -28,7 +28,7 @@ jobs:
       - name: Docusaurus BuildDeploy Action
         # You may pin to the exact commit or the version.
         # uses: redkubes/docusaurus-deploy-action@f81b409203e9562ebbac672e37daa5e8a6193144
-        uses: redkubes/docusaurus-deploy-action@v1
+        uses: calpolyswift/docusaurus-deploy-action@v1
         with:
           # source folder
           # source-folder: 
