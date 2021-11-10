@@ -5,8 +5,6 @@ import styles from "./styles.module.css";
 import {faDatabase, faHandshake, faShieldAlt} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
-
-
 function Mission(){
   return(
     <div class={clsx(styles.sectionPadding)}>
@@ -16,12 +14,16 @@ function Mission(){
             {/* <FontAwesomeIcon icon={faDatabase} class={clsx("core-icons")} /> */}
             {/* <FontAwesomeIcon icon={faDatabase} className={clsx(styles.sectionIcon)}/> */}
             <div class={clsx("padding--sm centered")}>
-              <p>We are Students with an Interest in the Future of Technology, the premier information technology and security organization at Cal Poly Pomona. 
-              We aim to inspire and create a generation of students who are aware and capable of dealing with the dynamic landscape of information security, 
-              cyber security, and information technology. Together we can build a secure future through training, experience, and education. 
-              Let's work together to create and learn something new. Don't just take our word for it. 
-              Whether you are an industry professional or a curious student, take a look at our previous events. 
-              While you're at it, come to one of our unique workshops, trainings, or conferences and become part of SWIFT.</p>
+              <p>
+                We are Students with an Interest in the Future of Technology, or **SWIFT**, the premier information 
+                technology and security organization at Cal Poly Pomona. We focus on delivering the practical techniques, 
+                resources, and workshops to succeed within the fields of cybersecurity, system administration, and networking 
+                - for students, by students.
+                
+                We strive to inspire students to take their learning beyond the classroom and prepare members to endeavor into 
+                their professional careers with mentoring from industry professionals working in CrowdStrike, Mandiant, Tesla, 
+                and many other companies.
+              </p>
             </div>
           </div>
         </div>
@@ -30,6 +32,29 @@ function Mission(){
   )
 }
 
+// function Mission(){
+//   return(
+//     <div class={clsx(styles.sectionPadding)}>
+//       <section class="container">
+//         <div class="row">
+//           <div class="col col--12 centered">
+//             {/* <FontAwesomeIcon icon={faDatabase} class={clsx("core-icons")} /> */}
+//             {/* <FontAwesomeIcon icon={faDatabase} className={clsx(styles.sectionIcon)}/> */}
+//             <div class={clsx("padding--sm centered")}>
+//               <p>We are Students with an Interest in the Future of Technology, the premier information technology and security organization at Cal Poly Pomona. 
+//               We aim to inspire and create a generation of students who are aware and capable of dealing with the dynamic landscape of information security, 
+//               cyber security, and information technology. Together we can build a secure future through training, experience, and education. 
+//               Let's work together to create and learn something new. Don't just take our word for it. 
+//               Whether you are an industry professional or a curious student, take a look at our previous events. 
+//               While you're at it, come to one of our unique workshops, trainings, or conferences and become part of SWIFT.</p>
+//             </div>
+//           </div>
+//         </div>
+//       </section>
+//     </div>
+//   )
+// }
+// 
 
 // function Message() {
 //   return (
