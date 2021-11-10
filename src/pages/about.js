@@ -24,7 +24,7 @@ function Mission(){
                 their professional careers with mentoring from industry professionals working in CrowdStrike, Mandiant, Tesla, 
                 and many other companies.
 
-                Yum!
+                Yummy!
               </p>
             </div>
           </div>
