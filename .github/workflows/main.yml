@@ -31,7 +31,7 @@ jobs:
         uses: redkubes/docusaurus-deploy-action@v1
         with:
           # source folder
-          source-folder: /
+          # source-folder: 
           # git user name
           git-user: fyrworx4
           # git password (defaults to secrets.GITHUB_TOKEN, which should work if it has default rights)
