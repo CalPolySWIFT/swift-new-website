@@ -16,35 +16,20 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  lint-and-test:
+    name: yarn deploying
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      
-      - name: Docusaurus BuildDeploy Action
-        # You may pin to the exact commit or the version.
-        # uses: redkubes/docusaurus-deploy-action@f81b409203e9562ebbac672e37daa5e8a6193144
-        uses: calpolyswift/docusaurus-deploy-action@master
-        with:
-          # source folder
-          source-folder: /
-          # git user name
-          git-user: fyrworx4
-          # git password (defaults to secrets.GITHUB_TOKEN, which should work if it has default rights)
-          # git-password: # optional
-          # git branch to publish to (defaults to gh-pages)
-          # deployment-branch: # optional
-          
-      - name: webfactory/ssh-agent
-        # You may pin to the exact commit or the version.
-        # uses: webfactory/ssh-agent@5f066a372ec13036ab7cb9a8adf18c936f8d2043
-        uses: webfactory/ssh-agent@v0.5.3
-        with:
-          # Private SSH key to register in the SSH agent
-          ssh-private-key: $ {{ secrets.SSH_PRIVATE_KEY }}
-          # Where to place the SSH Agent auth socket
-          # ssh-auth-sock: # optional
+    - uses: actions/checkout@master
+    - name: Install
+      uses: CultureHQ/actions-yarn@master
+      with:
+        args: install
+    - name: Lint
+      uses: CultureHQ/actions-yarn@master
+      with:
+        args: lint
+    - name: Test
+      uses: CultureHQ/actions-yarn@master
+      with:
+        args: test
