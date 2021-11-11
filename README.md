@@ -4,17 +4,21 @@ This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern 
 
 ## Automated Deployment
 
-When this respository receives a push (`git push`), it triggers a GitHub Action that deploys the website onto the gh-pages branch, where the GitHub Pages site is being hosted on. It takes a little over 1 minute for the GitHub Action to complete.
+When this respository receives a push (`git push`), it triggers a GitHub Action that deploys the website onto the `gh-pages` branch, where the GitHub Pages site is being hosted on. 
+
+It takes around 1 minute and 15 seconds for the GitHub Action to complete, so keep this in mind when viewing the updated website.
+
+Please use the Wiki for further documentation.
 
 ## Manual Deployment
 
 ### Installation
 
-The `yarn install` command will install all packages using the Yarn package manager.
-
-```console
+```
 yarn install
 ```
+
+The `yarn install` command will install all packages using the Yarn package manager.
 
 ### Local Development
 
