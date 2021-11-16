@@ -11,7 +11,7 @@ function One() {
      <section className={styles.section}>
       <div class="row core-values">
         <div class="col col--6 centered">   
-          <img src={useBaseUrl('img/eboard-images/Silas_Shen.jpg')} className={styles.socialImg} />
+          <img src={useBaseUrl('img/eboard-images/Taylor_Nguyen.jpg')} className={styles.socialImg} />
           <p className={styles.socialNames}>Taylor Nguyen</p>
           <p className={styles.ePosition}>President</p>
           <p>
