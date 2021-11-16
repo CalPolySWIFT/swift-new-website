@@ -14,7 +14,7 @@ function One() {
           <img src={useBaseUrl('img/eboard-images/Taylor_Nguyen.jpg')} className={styles.socialImg} />
           <p className={styles.socialNames}>Taylor Nguyen</p>
           <p className={styles.ePosition}>President</p>
-          <p>
+          <p> 
             <a href="https://www.linkedin.com/in/silass1/"> 
                 <FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/> 
             </a>
