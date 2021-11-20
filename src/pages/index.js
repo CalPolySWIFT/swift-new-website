@@ -50,10 +50,10 @@ function Competition() {
           <div class="col col--5 centered padding--lg">
             <h2 class="">Competition</h2>
             <p>
-              Take your skill to the next level with challenges that put you up
+              Take your skills to the next level with challenges that put you up
               against the best in the field. Apply your skills building defensive
-              networks, or be offensive and attack them. Our CCDC team will train
-              you from the ground up.
+              networks, or be offensive and attack them. Our CCDC and CPTC teams will
+              train you from the ground up.
             </p>
           </div>
           <div class="col col--7 fixed-img">
@@ -76,10 +76,10 @@ function Event() {
           <div class="col col--5 centered padding--lg">
             <h2 class="">Events</h2>
             <p>
-              We hold basic and advanced weekly workshops which cover topics such as
-              using Linux, internet of things, and network forensics, an annual
-              on-campus, student-run conference, Tech Symposium, and a quarterly
-              LAN party, Frag Nite, held in conjunction with CPP E-Sports.
+              We hold basic and advanced weekly workshops covering topic such as Introduction to Linux,
+              and Network Forensics with Wireshark, and so much more. We also host an annual student-run
+              conference, Tech Symposium, and configure the networking infrastructure for FragFest, in
+              conjunction with Bronco Esports.
             </p>
           </div>
         </div>
@@ -96,10 +96,9 @@ function Membership() {
           <div class="col col--5 centered padding--lg">
             <h2 class="">Membership</h2>
             <p>
-              If you like learning new topics, solving problems, breaking things,
-              being with fellow hackers, get involved! Our membership provides you
-              with resources to enhance your college experience and your
-              professional outlook
+              Want to get more out from SWIFT? If you like learning new topics, solving problems,
+              breaking things, being with fellow hackers, we want you! Our membership provides you
+              with resources to enhance your college experience and your expand your professional development.
             </p>
           </div>
           <div class="col col--7 fixed-img">
