@@ -336,3 +336,7 @@ h2 a,
 .discord {
   height: 60px;
 }
+
+div .swift-desc {
+  text-align: center;
+}
