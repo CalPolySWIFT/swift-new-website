@@ -3,7 +3,7 @@ import Layout from '@theme/Layout';
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Link from "@docusaurus/Link";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCircle, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import clsx from 'clsx';
 import styles from "./styles.module.css";
 
@@ -15,6 +15,7 @@ function Steps() {
           <div class="col centered padding--lg">
             <h2>STEP 1</h2>
             <p>Join Discord</p>
+            <img src={useBaseUrl("img/discord.png")} className="discord" alt="discord logo" /><br />
             <div class={styles.buttons}>
               <Link
                 class={clsx(
@@ -30,6 +31,7 @@ function Steps() {
           <div class="col centered padding--lg">
             <h2>STEP 2</h2>
             <p>Join myBAR</p>
+            <img src={useBaseUrl("img/myBar.jpg")} className="myBar" alt="myBAR logo" /><br />
             <div class={styles.buttons}>
               <Link
                 class={clsx(
@@ -45,6 +47,7 @@ function Steps() {
           <div class="col centered padding--lg">
             <h2>STEP 3</h2>
             <p>Complete Registration</p>
+            <FontAwesomeIcon className="faFileAlt" icon={ faFileAlt }/><br />
             <Link
                 class={clsx(
                   "button button--primary button--gray-dark button-round button--lg",
