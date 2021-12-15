@@ -2,7 +2,8 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Link from "@docusaurus/Link";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import { faCircle } from '@fortawesome/free-solid-svg-icons';
 import clsx from 'clsx';
 import styles from "./styles.module.css";
 
@@ -69,8 +70,8 @@ function Benefits() {
           <div class={"col col--4 centered"}>
             <h2 class="text--center">Community</h2>
             <div>
-              <p><FontAwesomeIcon icon="circle" />Be part of a large community of students spanning over 20 years.</p>
-              <p>-Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Be part of a large community of students spanning over 20 years.</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
             </div>
           </div>
           <div class={"col col--4"}>
@@ -83,25 +84,25 @@ function Benefits() {
           <div class={"col col--4"}>
             <h2 class="text--center">Giveaways</h2>
             <div>
-              <p>- Free food at meetings</p>
-              <p>- Free T-Shirts, Stickers, Webcam Covers, and Other Swag</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Free food at meetings</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Free T-Shirts, Stickers, Webcam Covers, and Other Swag</p>
             </div>
           </div>
           <div class={"col col--4"}>
             <h2 class="text--center">Events</h2>
             <div>
-              <p>- Access and discounts to conferences and events</p>
-              <p>- Access to workshops and events throughout the year </p>
-              <p>- Free attendance to Tech Symposium</p>
-              <p>- Go on tours to organizations focusing on System Administration and Cyber Security</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Access and discounts to conferences and events</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Access to workshops and events throughout the year </p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Free attendance to Tech Symposium</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Go on tours to organizations focusing on System Administration and Cyber Security</p>
             </div>
           </div>
           <div class={"col col--4"}>
             <h2 class="text--center">Competition</h2>
             <div>
               <p>Participate in competitions:</p>
-              <p>- Participate in Collegiate Penetration Testing Competition (CPTC)</p>
-              <p>- Participate in Collegiate Cyber Defense Competition (CCDC)</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Participate in Collegiate Penetration Testing Competition (CPTC)</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Participate in Collegiate Cyber Defense Competition (CCDC)</p>
             </div>
           </div>
         </div>
