@@ -143,7 +143,7 @@ function Four() {
           <div class="row core-values">
             {/* Taylor Nguyen */}
             <div class="col col--12 centered">   
-              <img src={useBaseUrl('img/user_placeholder.jpg')} className={styles.socialImg} />
+              <img src={useBaseUrl('img/user_placeholder.jpg')} className={styles.socialImg} style={{height: "300px"}} />
               <p className={styles.socialNames}>Taylor Nguyen</p>
               <p className={styles.ePosition}>PRESIDENT</p>
               <p>
