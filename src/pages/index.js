@@ -14,26 +14,26 @@ function CoreValues() {
       <section class="container">
         <div class="row">
           <div class="col col--4 centered">
-            <FontAwesomeIcon icon={faHandshake} className={clsx(styles.sectionIcon)}/>
+            <FontAwesomeIcon icon={faShieldAlt} className={clsx(styles.sectionIcon)}/>
             <div class={clsx("padding--sm centered")}>
-              <h2>Networking</h2>
-              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+              <h2>Cybersecurity</h2>
+              <p>Everywhere from pentesting, to defending, to incident response, and everything in between.</p>
             </div>
           </div>
           <div class="col col--4 centered">
             {/* <FontAwesomeIcon icon={faShieldAlt} class={clsx("core-icons")}/> */}
             <FontAwesomeIcon icon={faShieldAlt} className={clsx(styles.sectionIcon)}/>
             <div class={clsx("padding--sm centered")}>
-              <h2>Cybersecurity</h2>
-              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+              <h2>Computer Networking</h2>
+              <p>Learn about computer networking from Cisco-certified individuals in SWIFT.</p>
             </div>
           </div>
           <div class="col col--4 centered">
             {/* <FontAwesomeIcon icon={faDatabase} class={clsx("core-icons")} /> */}
             <FontAwesomeIcon icon={faDatabase} className={clsx(styles.sectionIcon)}/>
             <div class={clsx("padding--sm centered")}>
-              <h2>System Admin</h2>
-              <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+              <h2>System Administration</h2>
+              <p>Want to get started with the basics of Linux and Windows? We got you covered!</p>
             </div>
           </div>
         </div>
@@ -50,10 +50,10 @@ function Competition() {
           <div class="col col--5 centered padding--lg">
             <h2 class="">Competition</h2>
             <p>
-              Take your skill to the next level with challenges that put you up
+              Take your skills to the next level with challenges that put you up
               against the best in the field. Apply your skills building defensive
-              networks, or be offensive and attack them. Our CCDC team will train
-              you from the ground up.
+              networks, or be offensive and attack them. Our CCDC and CPTC teams will
+              train you from the ground up.
             </p>
           </div>
           <div class="col col--7 fixed-img">
@@ -76,10 +76,10 @@ function Event() {
           <div class="col col--5 centered padding--lg">
             <h2 class="">Events</h2>
             <p>
-              We hold basic and advanced weekly workshops which cover topics such as
-              using Linux, internet of things, and network forensics, an annual
-              on-campus, student-run conference, Tech Symposium, and a quarterly
-              LAN party, Frag Nite, held in conjunction with CPP E-Sports.
+              We hold basic and advanced weekly workshops covering topic such as Introduction to Linux,
+              and Network Forensics with Wireshark, and so much more. We also host an annual student-run
+              conference, Tech Symposium, and configure the networking infrastructure for FragFest, in
+              conjunction with Bronco Esports.
             </p>
           </div>
         </div>
@@ -96,10 +96,9 @@ function Membership() {
           <div class="col col--5 centered padding--lg">
             <h2 class="">Membership</h2>
             <p>
-              If you like learning new topics, solving problems, breaking things,
-              being with fellow hackers, get involved! Our membership provides you
-              with resources to enhance your college experience and your
-              professional outlook
+              Want to get more out from SWIFT? If you like learning new topics, solving problems,
+              breaking things, being with fellow hackers, we want you! Our membership provides you
+              with resources to enhance your college experience and your expand your professional development.
             </p>
           </div>
           <div class="col col--7 fixed-img">

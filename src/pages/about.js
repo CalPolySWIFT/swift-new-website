@@ -15,7 +15,7 @@ function Mission(){
             {/* <FontAwesomeIcon icon={faDatabase} className={clsx(styles.sectionIcon)}/> */}
             <div class={clsx("padding--sm centered")}>
               <p>
-                We are Students with an Interest in the Future of Technology, or **SWIFT**, the premier information 
+                We are Students with an Interest in the Future of Technology, or SWIFT, the premier information 
                 technology and security organization at Cal Poly Pomona. We focus on delivering the practical techniques, 
                 resources, and workshops to succeed within the fields of cybersecurity, system administration, and networking 
                 - for students, by students.
