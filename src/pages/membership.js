@@ -150,25 +150,30 @@ function Quotes() {
           <div class={"col col--6 centered"}>
             <div class={styles.quote}>
               <p class={styles.quoteText}>
-                Leverage agile frameworks to provide a robust synopsis for high
-                level overviews. Iterative approaches to corporate strategy foster
-                collaborative thinking to further the overall value proposition.
-                Organically grow the holistic world view of disruptive innovation
-                via workplace diversity and empowerment.
+                “Joining SWIFT has completely changed my career trajectory. I went from
+                being a CIS student to landing a cybersecurity internship, becoming Director
+                of SWIFT Labs, and being an accomplished penetration tester all within a
+                year and a half. The most important part of my time at SWIFT is seeing the
+                hard work build up to something greater. Being a penetration tester has been
+                something I’ve been working towards since February, and this past
+                November, I represented Cal Poly Pomona at the Collegiate Penetration
+                Testing Competition and won 1st place in the Western Region.”
               </p>
-              <p class={"text--right text--bold"}>- John Doe, Alumni</p>
+              <p class={"text--right text--bold"}>- Robinson Tran, CIS Information Security, Class of 2021</p>
             </div>
           </div>
           <div class={"col col--6 centered"}>
             <div class={styles.quote}>
               <p class={styles.quoteText}>
-                Leverage agile frameworks to provide a robust synopsis for high
-                level overviews. Iterative approaches to corporate strategy foster
-                collaborative thinking to further the overall value proposition.
-                Organically grow the holistic world view of disruptive innovation
-                via workplace diversity and empowerment.
+                “Without my involvement in Students With an Interest in the Future of
+                Technology I can guarantee with absolute certainty, I would never have been
+                able to answer interview questions. My time as an E-board member of the
+                student run organization has accelerated my cybersecurity knowledge
+                through a variety of ways such as leading weekly presentations, generating
+                cybersecurity based workshops, and generally fostering a community of
+                individuals with a passion for the industry.”
               </p>
-              <p class={"text--right text--bold"}>- John Doe, CS 3rd Year</p>
+              <p class={"text--right text--bold"}>- Luis Velasquez, CIS Information Security, Class of 2022</p>
             </div>
           </div>
         </div>
