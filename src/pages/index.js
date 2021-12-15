@@ -17,7 +17,7 @@ function CoreValues() {
             <FontAwesomeIcon icon={faShieldAlt} className={clsx(styles.sectionIcon)}/>
             <div class={clsx("padding--sm centered")}>
               <h2>Cybersecurity</h2>
-              <p>Everywhere from pentesting, to defending, to incident response, and everything in between.</p>
+              <p className="swift-desc">Everywhere from pentesting, to defending, to incident response, and everything in between.</p>
             </div>
           </div>
           <div class="col col--4 centered">
@@ -25,7 +25,7 @@ function CoreValues() {
             <FontAwesomeIcon icon={faShieldAlt} className={clsx(styles.sectionIcon)}/>
             <div class={clsx("padding--sm centered")}>
               <h2>Computer Networking</h2>
-              <p>Learn about computer networking from Cisco-certified individuals in SWIFT.</p>
+              <p className="swift-desc">Learn about computer networking from Cisco-certified individuals in SWIFT.</p>
             </div>
           </div>
           <div class="col col--4 centered">
@@ -33,7 +33,7 @@ function CoreValues() {
             <FontAwesomeIcon icon={faDatabase} className={clsx(styles.sectionIcon)}/>
             <div class={clsx("padding--sm centered")}>
               <h2>System Administration</h2>
-              <p>Want to get started with the basics of Linux and Windows? We got you covered!</p>
+              <p className="swift-desc">Want to get started with the basics of Linux and Windows? We got you covered!</p>
             </div>
           </div>
         </div>
