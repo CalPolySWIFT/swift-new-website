@@ -69,7 +69,7 @@ function Benefits() {
           <div class={"col col--4 centered"}>
             <h2 class="text--center">Community</h2>
             <div>
-              <p><FontAwesomeIcon icon="circle" /></i>Be part of a large community of students spanning over 20 years.</p>
+              <p><FontAwesomeIcon icon="circle" />Be part of a large community of students spanning over 20 years.</p>
               <p>-Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
             </div>
           </div>
