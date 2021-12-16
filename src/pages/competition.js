@@ -116,10 +116,13 @@ function NCL() {
           </div>
           <div class="col col--7">
             <p class="text--justify">
-              If you like learning new topics, solving problems, breaking things,
-              being with fellow hackers, get involved! Our membership provides you
-              with resources to enhance your college experience and your
-              professional outlook
+              National Cyber League, or NCL, is a Capture-The-Flag competition that 
+              encourage students to use a wide variety of tools, explore new technologies, 
+              and think outside the box to solve various challenges on its platform. Students 
+              are tasked to perform open-source intelligence on social media accounts, websites, 
+              and even Google Maps, as well as analyze packet captures for IP addresses and data 
+              transfer and even perform reverse engineering on a binary to identify flags. This 
+              competition is open for everyone of all skill levels.
             </p>
           </div>
         </div>
@@ -135,10 +138,10 @@ function Hive() {
         <div class="row">
           <div class="col col--7">
             <p class="text--justify">
-              Come to our weekly meetings where we present and discuss topics
-              focusing on cyber security, networking, system administration, and
-              automation. We host peers and industry leaders in the field to give
-              our members an insight to the professional world of technology.
+              Hivestorm is a CyberPatriot-esque competition where students are tasked to perform 
+              a variety of hardening techniques and practices to secure Windows and Linux machines. 
+              Students learn about basic Windows and Linux system administration, as well as 
+              different utilities within each operating system to perform basic hardening tasks.
             </p>
           </div>
           <div class="col col--5 centered padding--lg">
