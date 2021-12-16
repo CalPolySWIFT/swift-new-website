@@ -166,8 +166,9 @@ function Membership() {
       </div>
       <main>
         <Description />
-        <CPTC />
         <CCDC />
+        <CPTC />
+        <RvB />
         <NCL />
         <Hive />
       </main>
