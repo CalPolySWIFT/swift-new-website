@@ -42,7 +42,7 @@ function CoreValues() {
   );
 }
 
-function Competition() {
+function Competitions() {
   return (
     <div class={clsx(styles.sectionPadding, "section-background-color")}>
       <section class="container">
@@ -180,7 +180,7 @@ function Home() {
 
       <main>
         <CoreValues />
-        <Competition />
+        <Competitions />
         <Event />
         <Memberships />
         <Meeting />

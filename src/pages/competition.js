@@ -13,7 +13,7 @@ function Description() {
       <div class="container">
         <div class={clsx(styles.sectionFixed, "margin-centered padding--xl")}>
           <p>
-            <span class={styles.firstWord}>Students</span> with an Interest in
+            Students with an Interest in
             the Future of Technology is the premier information technology and
             security organization at Cal Poly Pomona. We aim to inspire and
             create a generation of students who are aware and capable of dealing
@@ -23,6 +23,32 @@ function Description() {
           </p>
         </div>
       </div>
+    </div>
+  );
+}
+
+function CCDC() {
+  return (
+    <div class={clsx(styles.sectionPadding, "section-background-color")}>
+      <section class="container">
+        <div class="row">
+          <div class="col col--7 fixed-img">
+            <img src={useBaseUrl("img/ccdc.jpg")} alt="Event" />
+          </div>
+          <div class="col col--5 centered padding--lg">
+            <h2 class=""><a href="http://www.nationalccdc.org/">CCDC</a></h2>
+            <p class="text--justify">
+              CCDC is a national blue teaming competition that challenges student to maintain 
+              and protect a simulated corporation. CCDC challenges a variety of skills, 
+              maintaining a company’s day-to-day operations, managing networks, 
+              and hardening main services in Linux and Windows. 
+              Many industries recognize CCDC as real world technical experience. 
+              To prepare, SWIFT invites all students for weekly CCDC training starting summer 
+              till the end of nationals.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
@@ -52,25 +78,27 @@ function CPTC() {
   );
 }
 
-function CCDC() {
+function RvB() {
   return (
-    <div class={clsx(styles.sectionPadding, "section-background-color")}>
+    <div class={clsx(styles.sectionPadding)}>
       <section class="container">
         <div class="row">
-          <div class="col col--7 fixed-img">
-            <img src={useBaseUrl("img/ccdc.jpg")} alt="Event" />
-          </div>
-          <div class="col col--5 centered padding--lg">
-            <h2 class=""><a href="http://www.nationalccdc.org/">CCDC</a></h2>
+          <div class="col col--7 centered padding--lg">
+            <h2 class="">Red vs. Blue</h2>
             <p class="text--justify">
-              CCDC is a national blue teaming competition that challenges student to maintain 
-              and protect a simulated corporation. CCDC challenges a variety of skills, 
-              maintaining a company’s day-to-day operations, managing networks, 
-              and hardening main services in Linux and Windows. 
-              Many industries recognize CCDC as real world technical experience. 
-              To prepare, SWIFT invites all students for weekly CCDC training starting summer 
-              till the end of nationals.
+            Red vs. Blue (RvB) is a SWIFT-run competition that enables its teams 
+            competing in CCDC and CPTC to share their technical knowledge and expertise 
+            with other students. RvB is modeled after CCDC and places a team of 4 students 
+            into a vulnerable network they have to protect. SWIFT board and alumni act as 
+            an adversary trying to compromise the network and give students a unique 
+            experience of troubleshooting and incident response in an active breach 
+            scenario. Originating from a partnership between SWIFT and Troy High School, 
+            we aim to expand this opportunity for SWIFT members and give the competition 
+            experience into everyone's hands.
             </p>
+          </div>
+          <div class="col col--5 fixed-img">
+            <img src={useBaseUrl("img/cptc.jpg")} alt="Competition" />
           </div>
         </div>
       </section>
