@@ -25,7 +25,7 @@ function CoreValues() {
             <FontAwesomeIcon icon={faShieldAlt} className={clsx(styles.sectionIcon)}/>
             <div class={clsx("padding--sm centered")}>
               <h2>Computer Networking</h2>
-              <p className="swift-desc">Learn about computer networking from Cisco-certified individuals in SWIFT. We cover beginner-friendly topics such as IP addressing as well as more advanced areas of networking, including software-defined networking.</p>
+              <p className="swift-desc">Learn about computer networking in SWIFT! We cover beginner-friendly topics such as IP addressing and gradually move on to network security and software-defined networking.</p>
             </div>
           </div>
           <div class="col col--4 centered">
@@ -48,16 +48,16 @@ function Competition() {
       <section class="container">
         <div class="row">
           <div class="col col--5 centered padding--lg">
-            <h2 class="">Competition</h2>
+            <h2 class="">Competitions</h2>
             <p>
               Take your skills to the next level with challenges that put you up
-              against the best in the field. Apply your skills building defensive
-              networks, or be offensive and attack them. Our CCDC and CPTC teams will
-              train you from the ground up.
+              against the best in the field. Apply your cyber defense skills building
+              defensive networks or be on the offensive and hack your way through
+              a network. Our CCDC and CPTC teams will train you from the ground up.
             </p>
           </div>
           <div class="col col--7 fixed-img">
-            <img src={useBaseUrl("img/trophies.jpg")} alt="Competition" />
+            <img src={useBaseUrl("img/trophies.jpg")} alt="Competitions" />
           </div>
         </div>
       </section>
@@ -76,10 +76,12 @@ function Event() {
           <div class="col col--5 centered padding--lg">
             <h2 class="">Events</h2>
             <p>
-              We hold basic and advanced weekly workshops covering topic such as Introduction to Linux,
-              and Network Forensics with Wireshark, and so much more. We also host an annual student-run
-              conference, Tech Symposium, and configure the networking infrastructure for FragFest, in
-              conjunction with Bronco Esports.
+              We hold basic and advanced weekly workshops covering topics such as Introduction to Linux,
+              Network Forensics with Wireshark, and so much more. We also host an annual student-run
+              conference, Tech Symposium, opening previously-closed doors for students who are new to cybersecurity.
+              We also assist Bronco Esports with a semi-annual on-campus LAN gaming event called FragFest by
+              configuring the networking infrastructure for gamers. Reach out to us if all of this seems
+              fun for you!
             </p>
           </div>
         </div>
@@ -88,7 +90,7 @@ function Event() {
   );
 }
 
-function Membership() {
+function Memberships() {
   return (
     <div class={clsx(styles.sectionPadding, "section-background-color")}>
       <section class="container">
@@ -96,7 +98,7 @@ function Membership() {
           <div class="col col--5 centered padding--lg">
             <h2 class="">Membership</h2>
             <p>
-              Want to get more out from SWIFT? If you like learning new topics, solving problems,
+              Want to get even more out from SWIFT? If you like learning new topics, solving problems,
               breaking things, being with fellow hackers, we want you! Our membership provides you
               with resources to enhance your college experience and your expand your professional development.
             </p>
@@ -180,7 +182,7 @@ function Home() {
         <CoreValues />
         <Competition />
         <Event />
-        <Membership />
+        <Memberships />
         <Meeting />
       </main>
     </Layout>
