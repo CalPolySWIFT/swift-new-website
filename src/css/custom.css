@@ -300,6 +300,12 @@ h2 a,
 .footer {
   /* background-color: var(--color-black); */
   background-color: unset;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
 }
 
 /* Laptop View */
