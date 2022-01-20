@@ -90,28 +90,27 @@ function Benefits() {
           <div class={"col col--4"}>
             <h2 class="text--center">Giveaways</h2>
             <div>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Free food at meetings</p>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Free T-Shirts, Stickers, Webcam Covers, and Other Swag</p>
+              <p class="text--center">Free food at meetings</p>
+              <p class="text--center">Free T-Shirts, Stickers, Webcam Covers, and Other Swag</p>
             </div>
           </div>
           <div class={"col col--4"}>
             <h2 class="text--center">Events</h2>
             <div>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Access and discounts to conferences and events</p>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Access to workshops and events throughout the year </p>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Free attendance to Tech Symposium</p>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Go on tours to organizations focusing on System Administration and Cyber Security</p>
+              <p class="text--center"> Access and discounts to conferences and events</p>
+              <p class="text--center"> Access to workshops and events throughout the year </p>
+              <p class="text--center"> Free attendance to Tech Symposium</p>
+              <p class="text--center"> Go on tours to organizations focusing on System Administration and Cyber Security</p>
             </div>
           </div>
           <div class={"col col--4"}>
             <h2 class="text--center">Competition</h2>
             <div>
               <p>Participate in competitions:</p>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Participate in Collegiate Penetration Testing Competition (CPTC)</p>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Participate in Collegiate Cyber Defense Competition (CCDC)</p>
+              <p class="text--center"> Participate in Collegiate Penetration Testing Competition (CPTC)</p>
+              <p class="text--center"> Participate in Collegiate Cyber Defense Competition (CCDC)</p>
             </div>
           </div>
-          
         </div>
       </div>
     </div>
