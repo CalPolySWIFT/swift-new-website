@@ -106,7 +106,7 @@ function Benefits() {
           <div class={"col col--4"}>
             <h2 class="text--center">Competition</h2>
             <div>
-              <p>Participate in competitions:</p>
+              <p class="text--center">Participate in competitions:</p>
               <p class="text--center"> Participate in Collegiate Penetration Testing Competition (CPTC)</p>
               <p class="text--center"> Participate in Collegiate Cyber Defense Competition (CCDC)</p>
             </div>
@@ -162,7 +162,7 @@ function Quotes() {
                 November, I represented Cal Poly Pomona at the Collegiate Penetration
                 Testing Competition and won 1st place in the Western Region.”
               </p>
-              <p class={"text--right text--bold"}>- Robinson Tran, CIS Information Security, Class of 2021</p>
+              <p class={"text--right text--bold"}>- Robinson Tran, CIS Information Security, Class of 2021 <img src="images/Robinson.jpg"></img></p>
             </div>
           </div>
           <div class={"col col--6 centered"}>
@@ -176,7 +176,7 @@ function Quotes() {
                 cybersecurity based workshops, and generally fostering a community of
                 individuals with a passion for the industry.”
               </p>
-              <p class={"text--right text--bold"}>- Luis Velasquez, CIS Information Security, Class of 2022</p>
+              <p class={"text--right text--bold"}>- Luis Velasquez, CIS Information Security, Class of 2022 <img src="images/Luis.jpg"></img></p> 
             </div>
           </div>
         </div>
