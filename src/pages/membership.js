@@ -82,8 +82,7 @@ function Benefits() {
               <img src={useBaseUrl("img/logo_only_white.png")} alt="Event" />
             </div>
           </div>
-        </div>
-        <div class={"col col--4"}>
+          <div class={"col col--4"}>
             <h2 class="text--center">Chet Apichart</h2>
             <div>
               <p>Why is Chet so cool?</p>
@@ -91,6 +90,7 @@ function Benefits() {
               <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Chet is just that cool.</p>
             </div>
           </div>
+        </div>
         <div class={"row"}>
           <div class={"col col--4"}>
             <h2 class="text--center">Giveaways</h2>
