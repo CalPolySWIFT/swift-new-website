@@ -81,9 +81,9 @@ function Benefits() {
             </div>
           </div>
           <div class={"col col--4 centered"}>
-            <h2 class="text--center">Community</h2>
-            <p class="text--center">Be part of a large community of students spanning over 20 years.</p>
-            <p class="text--center">Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
+            <h2 class="text--center">Engaging Presentations</h2>
+            <p class="text--center">Come to one of our presentations and witness the greatness of orbital weapons.</p>
+            <p class="text--center">Chet Apichart is waiting for you....</p>
           </div>
         </div>
         <div class={"row"}>
