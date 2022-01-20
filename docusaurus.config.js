@@ -83,7 +83,7 @@ module.exports = {
                 <footer>
                   <div class="container">
                     <div class="col item social">
-                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                      <a href="#"><i class="icon ion-social-facebook"></i></a>
                       <a href="#"></a>
                       <a href="#"></a>
                       <a href="#"></a>
