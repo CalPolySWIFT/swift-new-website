@@ -79,10 +79,12 @@ module.exports = {
           items: [
             {
               html: `
-              
+              class="fab fa-linkedin-in"
               <div class="footer-dark">
                 <footer>
+                class="fab fa-linkedin-in"
                   <div class="container">
+                  class="fab fa-linkedin-in"
                     <div class="col item social">
                       <a style="color:white;" href="#"><i class="fab fa-linkedin-in"></i></a>
                       <a href="#"><FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/></a>
