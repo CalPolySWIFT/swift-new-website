@@ -78,7 +78,22 @@ module.exports = {
         {
           items: [
             {
-              html: '<p>bruh</p>'
+              html: `
+              <div class="inner">
+                <section>
+                  <h2>Follow</h2>
+                  <ul class="icons">
+                    <li><a href="https://github.com/JacobJRayme" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/jacob-jayme-98b4b41ab/" class="icon brands style2 fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://discord.gg/vAtW8tNV" class="icon brands style2 fa-discord"><span class="label">Discord</span></a></li>
+                  </ul>
+  
+                </section>
+                <ul class="copyright">
+                  <li>&copy;JacobJayme. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                </ul>
+              </div>
+            `
             },
           ],
         },
