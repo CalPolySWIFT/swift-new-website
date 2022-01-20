@@ -82,12 +82,11 @@ function Benefits() {
               <img src={useBaseUrl("img/logo_only_white.png")} alt="Event" />
             </div>
           </div>
-          <div class={"col col--4"}>
-            <h2 class="text--center">Chet Apichart</h2>
+          <div class={"col col--4 centered"}>
+            <h2 class="text--center">Community</h2>
             <div>
-              <p>Why is Chet so cool?</p>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Chet is the most handsome guy on earth.</p>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Chet is just that cool.</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Be part of a large community of students spanning over 20 years.</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
             </div>
           </div>
         </div>
