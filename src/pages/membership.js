@@ -72,10 +72,8 @@ function Benefits() {
         <div class={"row"}>
           <div class={"col col--4 centered"}>
             <h2 class="text--center">Community</h2>
-            <div>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Be part of a large community of students spanning over 20 years.</p>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
-            </div>
+            <li>Be part of a large community of students spanning over 20 years.</li>
+            <li>Join a Discord server with 700+ members of current students, alumni, and mentors.</li>
           </div>
           <div class={"col col--4"}>
             <div class={clsx(styles.logoFixedHeight)}>
@@ -84,10 +82,8 @@ function Benefits() {
           </div>
           <div class={"col col--4 centered"}>
             <h2 class="text--center">Community</h2>
-            <div>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Be part of a large community of students spanning over 20 years.</p>
-              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
-            </div>
+            <li>Be part of a large community of students spanning over 20 years.</li>
+            <li>Join a Discord server with 700+ members of current students, alumni, and mentors.</li>
           </div>
         </div>
         <div class={"row"}>
