@@ -79,9 +79,6 @@ module.exports = {
           items: [
             {
               html: `
-              <a href="https://www.youtube.com/user/CalPolySWIFT?feature=guide" target="_blank">
-                <img class="social-network" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/395_Youtube_logo-512.png" alt="YouTube" />
-              </a>
               <ul class="social-icons col-md-6 col-sm-6 col-xs-12 hidden-xs">
                 <li><a href="https://twitter.com/calpolyswift"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="https://www.facebook.com/CalPolySWIFT"><i class="fa fa-facebook"></i></a></li>
@@ -90,9 +87,8 @@ module.exports = {
                 <li><a href="https://www.linkedin.com/groups/Students-Interest-in-Future-Technology-4108262"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://github.com/CalPolySWIFT"><i class="fa fa-github"></i></a></li>
                 <li><a href="https://discord.gg/Na5PGfp"><i class="fa icon-discord"></i></a></li>
-                <li><a href="/static/assets/images/SWIFT-snapchat-code.png"><i class="fa fa-snapchat-ghost"></i></a></li>
               </ul>
-            `,
+            `
             },
           ],
         },
