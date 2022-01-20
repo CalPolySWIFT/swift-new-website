@@ -151,6 +151,7 @@ function Quotes() {
       <div class="container">
         <div class="row padding--lg">
           <div class={"col col--6 centered"}>
+            <img src={useBaseUrl("img/Robinson.jpg")}></img>
             <div class={styles.quote}>
               <p class={styles.quoteText}>
                 “Joining SWIFT has completely changed my career trajectory. I went from
@@ -162,10 +163,11 @@ function Quotes() {
                 November, I represented Cal Poly Pomona at the Collegiate Penetration
                 Testing Competition and won 1st place in the Western Region.”
               </p>
-              <p class={"text--right text--bold"}>- Robinson Tran, CIS Information Security, Class of 2021 <img src={useBaseUrl("img/Robinson.jpg")}></img></p>
+              <p class={"text--right text--bold"}>- Robinson Tran, CIS Information Security, Class of 2021 </p>
             </div>
           </div>
           <div class={"col col--6 centered"}>
+            <img src={useBaseUrl("img/Luis.jpg")}></img>
             <div class={styles.quote}>
               <p class={styles.quoteText}>
                 “Without my involvement in Students With an Interest in the Future of
@@ -176,7 +178,7 @@ function Quotes() {
                 cybersecurity based workshops, and generally fostering a community of
                 individuals with a passion for the industry.”
               </p>
-              <p class={"text--right text--bold"}>- Luis Velasquez, CIS Information Security, Class of 2022 <img src={useBaseUrl("img/Luis.jpg")}></img></p> 
+              <p class={"text--right text--bold"}>- Luis Velasquez, CIS Information Security, Class of 2022 </p> 
             </div>
           </div>
         </div>
