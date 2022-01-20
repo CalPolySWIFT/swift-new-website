@@ -72,8 +72,8 @@ function Benefits() {
         <div class={"row"}>
           <div class={"col col--4 centered"}>
             <h2 class="text--center">Community</h2>
-            <li>Be part of a large community of students spanning over 20 years.</li>
-            <li>Join a Discord server with 700+ members of current students, alumni, and mentors.</li>
+            <li class="text--center">Be part of a large community of students spanning over 20 years.</li>
+            <li class="text--center">Join a Discord server with 700+ members of current students, alumni, and mentors.</li>
           </div>
           <div class={"col col--4"}>
             <div class={clsx(styles.logoFixedHeight)}>
