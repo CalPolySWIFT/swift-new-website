@@ -73,49 +73,37 @@ module.exports = {
       ],
     },
     footer: {
-      // style: 'dark',
-      // logo: {
-      //   alt: 'Youtube Logo',
-      //   src: 'img/chet.png',
-      //   href: 'https://www.youtube.com/user/CalPolySWIFT?feature=guide',
-      //   width: 160,
-      //   height: 51,
-      // },
-      // logo: {
-      //   alt: 'Facebook Logo',
-      //   src: 'img/chet.png',
-      //   href: 'https://www.facebook.com/CalPolySWIFT',
-      //   width: 160,
-      //   height: 51,
-      // },
-      // logo: {
-      //   alt: 'Facebook Open Source Logo',
-      //   src: 'img/oss_logo.png',
-      //   href: 'https://opensource.facebook.com',
-      //   width: 160,
-      //   height: 51,
-      // },
-      // logo: {
-      //   alt: 'Twitter Logo',
-      //   src: 'img/chet.png',
-      //   href: 'https://twitter.com/calpolyswift',
-      //   width: 160,
-      //   height: 51,
-      // },
-      // logo: {
-      //   alt: 'Github Logo',
-      //   src: 'img/chet.png',
-      //   href: 'https://twitter.com/calpolyswift',
-      //   width: 160,
-      //   height: 51,
-      // },
-      // logo: {
-      //   alt: 'Linkedin Logo',
-      //   src: 'img/chet.png',
-      //   href: 'https://www.linkedin.com/company/calpolyswift/',
-      //   width: 160,
-      //   height: 51,
-      // },
+      style: 'dark',
+      logo: {
+        alt: 'Youtube Logo',
+        src: 'img/chet.png',
+        href: 'https://www.youtube.com/user/CalPolySWIFT?feature=guide'
+      },
+      logo: {
+        alt: 'Facebook Logo',
+        src: 'img/chet.png',
+        href: 'https://www.facebook.com/CalPolySWIFT'
+      },
+      logo: {
+        alt: 'Facebook Open Source Logo',
+        src: 'img/oss_logo.png',
+        href: 'https://opensource.facebook.com'
+      },
+      logo: {
+        alt: 'Twitter Logo',
+        src: 'img/chet.png',
+        href: 'https://twitter.com/calpolyswift'
+      },
+      logo: {
+        alt: 'Github Logo',
+        src: 'img/chet.png',
+        href: 'https://twitter.com/calpolyswift'
+      },
+      logo: {
+        alt: 'Linkedin Logo',
+        src: 'img/chet.png',
+        href: 'https://www.linkedin.com/company/calpolyswift/'
+      },
       copyright: `Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus. Coded by <a href="https://lnk.bio/z7q3">Michelle Lee</a> and <a href="">Christian Falucho</a>.`,
     },
 
