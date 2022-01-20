@@ -78,17 +78,7 @@ module.exports = {
         {
           items: [
             {
-              html: `
-              <ul class="social-icons col-md-6 col-sm-6 col-xs-12 hidden-xs">
-                <li><a href="https://twitter.com/calpolyswift"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="https://www.facebook.com/CalPolySWIFT"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="https://www.youtube.com/user/CalPolySWIFT?feature=guide"><i class="fa fa-youtube"></i></a></li>
-                <li><a href="https://web.libera.chat/?channels=#swift"><i class="fa fa-wechat"></i></a></li>
-                <li><a href="https://www.linkedin.com/groups/Students-Interest-in-Future-Technology-4108262"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://github.com/CalPolySWIFT"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://discord.gg/Na5PGfp"><i class="fa icon-discord"></i></a></li>
-              </ul>
-            `
+              html: '<p>bruh</p>'
             },
           ],
         },
