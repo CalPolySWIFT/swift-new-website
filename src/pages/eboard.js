@@ -13,7 +13,7 @@ function One() {
       <div class="row core-values">
         {/* Lawrence Kim */}
         <div class="col col--4 centered">   
-          <img src={useBaseUrl('img/user_placeholder.jpg')} className={styles.socialImg} />
+          <img src={useBaseUrl('img/eboard/lawrence.jpg')} className={styles.socialImg} />
           <p className={styles.socialNames}>Lawrence Kim</p>
           <p className={styles.ePosition}>Technical Assistant</p>
           <p> 
@@ -24,7 +24,7 @@ function One() {
         </div>
         {/* Angela Lee */}
         <div class="col col--4 centered">   
-          <img src={useBaseUrl('img/user_placeholder.jpg')} className={styles.socialImg} />
+          <img src={useBaseUrl('img/eboard/Angela.jpg')} className={styles.socialImg} />
           <p className={styles.socialNames}>Angela Lee</p>
           <p className={styles.ePosition}>Technical Assistant</p>
           <p> 
@@ -35,7 +35,7 @@ function One() {
         {/*Dylan Wong*/}
         </div>
         <div class="col col--4 centered">
-            <img src={useBaseUrl('img/user_placeholder.jpg')} className={styles.socialImg} />
+            <img src={useBaseUrl('img/eboard/dylan.jpg')} className={styles.socialImg} />
           <p className={styles.socialNames}>Dylan Wong</p>
           <p className={styles.ePosition}>Technical Assistant</p>
           <p>
