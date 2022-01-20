@@ -108,6 +108,14 @@ function Benefits() {
               <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Participate in Collegiate Cyber Defense Competition (CCDC)</p>
             </div>
           </div>
+          <div class={"col col--4"}>
+            <h2 class="text--center">Chet Apichart</h2>
+            <div>
+              <p>Why is Chet so cool?</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Chet is the most handsome guy on earth.</p>
+              <p><FontAwesomeIcon className="faCircle" icon={ faCircle }/> Chet is just that cool.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
