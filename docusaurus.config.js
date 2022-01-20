@@ -154,6 +154,7 @@ module.exports = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/font-awesome.css')
         },
       },
     ],
