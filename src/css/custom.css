@@ -299,6 +299,7 @@ h2 a,
 /* FOOTER */
 .footer {
   /* background-color: var(--color-black); */
+  text-align: center;
   background-color: unset;
   display: flex;
 	flex-direction: row;
