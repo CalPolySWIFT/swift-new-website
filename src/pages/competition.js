@@ -29,7 +29,7 @@ function Description() {
 
 function CCDC() {
   return (
-    <div class={clsx(styles.sectionPadding, "section-background-color")}>
+    <div class={clsx(styles.sectionPadding)}>
       <section class="container">
         <div class="row">
           <div class="col col--7 fixed-img">
@@ -55,7 +55,7 @@ function CCDC() {
 
 function CPTC() {
   return (
-    <div class={clsx(styles.sectionPadding)}>
+    <div class={clsx(styles.sectionPadding, "section-background-color")}>
       <section class="container">
         <div class="row">
           <div class="col col--5 centered padding--lg">
@@ -80,7 +80,7 @@ function CPTC() {
 
 function RvB() {
   return (
-    <div class={clsx(styles.sectionPadding, "section-background-color")}>
+    <div class={clsx(styles.sectionPadding)}>
       <section class="container">
         <div class="row">
           <div class="col col--7 fixed-img">
@@ -108,7 +108,7 @@ function RvB() {
 
 function NCL() {
   return (
-    <div class={clsx(styles.sectionPadding)}>
+    <div class={clsx(styles.sectionPadding, "section-background-color")}>
       <section class="container">
         <div class="row">
           <div class="col col--5 centered padding--lg">
@@ -133,7 +133,7 @@ function NCL() {
 
 function Hive() {
   return (
-    <div class={clsx(styles.sectionPadding, "section-background-color")}>
+    <div class={clsx(styles.sectionPadding)}>
       <section class="container">
         <div class="row">
           <div class="col col--7">
