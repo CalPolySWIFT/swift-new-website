@@ -79,12 +79,11 @@ module.exports = {
           items: [
             {
               html: `
-              <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
               <div class="footer-dark">
                 <footer>
                   <div class="container">
                     <div class="col item social">
-                      <a href="#"><i class="icon ion-social-facebook"></i></a>
+                      <a href="#"><i class="gg-facebook"></i></a>
                       <a href="#"></a>
                       <a href="#"></a>
                       <a href="#"></a>
