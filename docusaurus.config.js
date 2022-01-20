@@ -79,17 +79,14 @@ module.exports = {
           items: [
             {
               html: `
-              class="fab fa-linkedin-in"
               <div class="footer-dark">
                 <footer>
-                class="fab fa-linkedin-in"
                   <div class="container">
-                  class="fab fa-linkedin-in"
                     <div class="col item social">
-                      <a style="color:white;" href="#"><i class="fab fa-linkedin-in"></i></a>
-                      <a href="#"><FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/></a>
-                      <a href="#"><FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/></a>
-                      <a href="#"><FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/></a>
+                      <a href="#"><i class="icon ion-social-facebook"></i></a>
+                      <a href="#"></a>
+                      <a href="#"></a>
+                      <a href="#"></a>
                     </div>
                 </div>
                 <p class="copyright">Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus. Started by <a href="https://lnk.bio/z7q3">Michelle Lee</a> and <a href="">Christian Falucho</a>. Finished by the Legendary Jacob Jayme.</p>
