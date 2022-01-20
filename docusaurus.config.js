@@ -1,5 +1,3 @@
-import {fab, faTwitterSquare, faFacebook, faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
-
 module.exports = {
   title: 'SWIFT',
   tagline: 'Students With an Interest in the Future of Technology',
