@@ -74,36 +74,76 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      logo: {
-        alt: 'Youtube Logo',
-        src: 'img/chet.png',
-        href: 'https://www.youtube.com/user/CalPolySWIFT?feature=guide'
-      },
-      logo: {
-        alt: 'Facebook Logo',
-        src: 'img/chet.png',
-        href: 'https://www.facebook.com/CalPolySWIFT'
-      },
-      logo: {
-        alt: 'Facebook Open Source Logo',
-        src: 'img/oss_logo.png',
-        href: 'https://opensource.facebook.com'
-      },
-      logo: {
-        alt: 'Twitter Logo',
-        src: 'img/chet.png',
-        href: 'https://twitter.com/calpolyswift'
-      },
-      logo: {
-        alt: 'Github Logo',
-        src: 'img/chet.png',
-        href: 'https://twitter.com/calpolyswift'
-      },
-      logo: {
-        alt: 'Linkedin Logo',
-        src: 'img/chet.png',
-        href: 'https://www.linkedin.com/company/calpolyswift/'
-      },
+      links: [
+        {
+          items: [
+            {
+              html: `
+              <a href="https://www.youtube.com/user/CalPolySWIFT?feature=guide" target="_blank">
+                <img class="social-network" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/395_Youtube_logo-512.png" alt="YouTube" />
+              </a>
+            `,
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              html: `
+              <a href="https://www.facebook.com/CalPolySWIFT" target="_blank">
+                <img class="social-network" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png" alt="FaceBook" />
+              </a>
+            `,
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              html: `
+              <a href="https://twitter.com/calpolyswift" target="_blank">
+                <img class="social-network" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png" alt="Twitter" />
+              </a>
+            `,
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              html: `
+              <a href="https://discord.com/invite/Na5PGfp" target="_blank">
+                <img class="social-network" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/91_Discord_logo_logos-512.png" alt="Discord" />
+              </a>
+            `,
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              html: `
+              <a href="https://github.com/CalPolySWIFT" target="_blank">
+                <img class="social-network" src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_github_2-512.png" alt="GitHub" />
+              </a>
+            `,
+            },
+          ],
+        },
+        {
+          items: [
+            {
+              html: `
+              <a href="https://www.linkedin.com/company/calpolyswift/" target="_blank">
+                <img class="social-network" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/linkedin-512.png" alt="LinkedIn" />
+              </a>
+            `,
+            },
+          ],
+        },
+
+
+      ],
       copyright: `Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus. Coded by <a href="https://lnk.bio/z7q3">Michelle Lee</a> and <a href="">Christian Falucho</a>.`,
     },
 
