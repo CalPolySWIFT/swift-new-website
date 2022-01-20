@@ -1,4 +1,4 @@
-
+import {fab, faTwitterSquare, faFacebook, faLinkedin, faGithub} from "@fortawesome/free-brands-svg-icons";
 
 module.exports = {
   title: 'SWIFT',
@@ -81,14 +81,15 @@ module.exports = {
           items: [
             {
               html: `
+              
               <div class="footer-dark">
                 <footer>
                   <div class="container">
                     <div class="col item social">
-                      <a href="#"><i class="icon ion-social-facebook"></i></a>
-                      <a href="#"><i class="icon ion-social-twitter"></i></a>
-                      <a href="#"><i class="icon ion-social-snapchat"></i></a>
-                      <a href="#"><i class="icon ion-social-instagram"></i></a>
+                      <a href="#"><FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/></a>
+                      <a href="#"><FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/></a>
+                      <a href="#"><FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/></a>
+                      <a href="#"><FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/></a>
                     </div>
                 </div>
                 <p class="copyright">Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus. Started by <a href="https://lnk.bio/z7q3">Michelle Lee</a> and <a href="">Christian Falucho</a>. Finished by the Legendary Jacob Jayme.</p>
