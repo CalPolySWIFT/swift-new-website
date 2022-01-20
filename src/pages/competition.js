@@ -80,11 +80,14 @@ function CPTC() {
 
 function RvB() {
   return (
-    <div class={clsx(styles.sectionPadding)}>
+    <div class={clsx(styles.sectionPadding, "section-background-color")}>
       <section class="container">
         <div class="row">
-          <div class="col col--7 centered padding--lg">
-            <h2 class="">Red vs. Blue</h2>
+          <div class="col col--7 fixed-img">
+            <img src={useBaseUrl("img/ccdc.jpg")} alt="Event" />
+          </div>
+          <div class="col col--5 centered padding--lg">
+          <h2 class="">Red vs. Blue</h2>
             <p class="text--justify">
             Red vs. Blue (RvB) is a SWIFT-run competition that enables its teams 
             competing in CCDC and CPTC to share their technical knowledge and expertise 
@@ -96,9 +99,6 @@ function RvB() {
             we aim to expand this opportunity for SWIFT members and give the competition 
             experience into everyone's hands.
             </p>
-          </div>
-          <div class="col col--5 fixed-img">
-            <img src={useBaseUrl("img/cptc.jpg")} alt="Competition" />
           </div>
         </div>
       </section>
