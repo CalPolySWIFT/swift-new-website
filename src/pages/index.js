@@ -6,7 +6,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import styles from "./styles.module.css";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faDatabase, faHandshake, faShieldAlt, faEthernet} from '@fortawesome/free-solid-svg-icons'
+import {faDatabase, faHandshake, faShieldAlt} from '@fortawesome/free-solid-svg-icons'
 
 function CoreValues() {
   return (
@@ -22,7 +22,7 @@ function CoreValues() {
           </div>
           <div class="col col--4 centered">
             {/* <FontAwesomeIcon icon={faShieldAlt} class={clsx("core-icons")}/> */}
-            <FontAwesomeIcon icon={faEthernet} className={clsx(styles.sectionIcon)}/>
+            <FontAwesomeIcon icon={faHandshake} className={clsx(styles.sectionIcon)}/>
             <div class={clsx("padding--sm centered")}>
               <h2>Computer Networking</h2>
               <p className="swift-desc">Learn about computer networking in SWIFT! We cover beginner-friendly topics such as IP addressing and gradually move on to network security and software-defined networking.</p>
