@@ -29,28 +29,45 @@ function Mission(){
             </div>
           </div>
         </div>
-        <div>
-      <section class="carousel" aria-label="carousel" Tabindex="0">
-        <a class="carousel__skip-link" href="#skip-link">Skip the Carousel</a>
-        <div class="slides">
-        <div class="slides-item slide-1" id="slide-1" aria-label="slide 1 of 5" tabindex="0">1</div>
-        <div class="slides-item slide-2" id="slide-2" aria-label="slide 2 of 5" tabindex="0">2</div>
-        <div class="slides-item slide-3" id="slide-3" aria-label="slide 3 of 5" tabindex="0">3</div>
-        <div class="slides-item slide-4" id="slide-4" aria-label="slide 4 of 5" tabindex="0">4</div>
-        <div class="slides-item slide-5" id="slide-5" aria-label="slide 5 of 5" tabindex="0">5</div>       
-    </div>
-  <div class="carousel__nav">
-    <a class="slider-nav" href="#slide-1" aria-label="Go to slide 1">1</a>
-    <a class="slider-nav" href="#slide-2" aria-label="Go to slide 2">2</a>
-    <a class="slider-nav" href="#slide-3" aria-label="Go to slide 3">3</a>
-    <a class="slider-nav" href="#slide-4" aria-label="Go to slide 4">4</a>
-    <a class="slider-nav" href="#slide-5" aria-label="Go to slide 5">5</a>
-  </div>
-      <div class="carousel__skip-message" id="skip-link" tabindex="0"></div>
+        <Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="holder.js/800x400?text=First slide&bg=373940"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3>First slide label</h3>
+      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="holder.js/800x400?text=Second slide&bg=282c34"
+      alt="Second slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Second slide label</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src="holder.js/800x400?text=Third slide&bg=20232a"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3>Third slide label</h3>
+      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
     </section>
   </div>
-  </section>
-</div>
   )
 }
 
