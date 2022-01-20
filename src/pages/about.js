@@ -2,11 +2,13 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import styles from "./styles.module.css";
+
 import {faDatabase, faHandshake, faShieldAlt} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 function Mission(){
   return(
+    
     <div class={clsx(styles.sectionPadding)}>
       <section class="container">
         <div class="row">
@@ -28,30 +30,27 @@ function Mission(){
           </div>
         </div>
         <div>
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="..." alt="First slide"></img>
-            </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Second slide"></img>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="..." alt="Third slide"></img>
-          </div>
-        </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-        </div>
-      </section>
+      <section class="carousel" aria-label="carousel" Tabindex="0">
+        <a class="carousel__skip-link" href="#skip-link">Skip the Carousel</a>
+        <div class="slides">
+        <div class="slides-item slide-1" id="slide-1" aria-label="slide 1 of 5" tabindex="0">1</div>
+        <div class="slides-item slide-2" id="slide-2" aria-label="slide 2 of 5" tabindex="0">2</div>
+        <div class="slides-item slide-3" id="slide-3" aria-label="slide 3 of 5" tabindex="0">3</div>
+        <div class="slides-item slide-4" id="slide-4" aria-label="slide 4 of 5" tabindex="0">4</div>
+        <div class="slides-item slide-5" id="slide-5" aria-label="slide 5 of 5" tabindex="0">5</div>       
     </div>
+  <div class="carousel__nav">
+    <a class="slider-nav" href="#slide-1" aria-label="Go to slide 1">1</a>
+    <a class="slider-nav" href="#slide-2" aria-label="Go to slide 2">2</a>
+    <a class="slider-nav" href="#slide-3" aria-label="Go to slide 3">3</a>
+    <a class="slider-nav" href="#slide-4" aria-label="Go to slide 4">4</a>
+    <a class="slider-nav" href="#slide-5" aria-label="Go to slide 5">5</a>
+  </div>
+      <div class="carousel__skip-message" id="skip-link" tabindex="0"></div>
+    </section>
+  </div>
+  </section>
+</div>
   )
 }
 
