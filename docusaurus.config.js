@@ -82,67 +82,20 @@ module.exports = {
               <a href="https://www.youtube.com/user/CalPolySWIFT?feature=guide" target="_blank">
                 <img class="social-network" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/395_Youtube_logo-512.png" alt="YouTube" />
               </a>
+              <ul class="social-icons col-md-6 col-sm-6 col-xs-12 hidden-xs">
+                <li><a href="https://twitter.com/calpolyswift"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/CalPolySWIFT"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.youtube.com/user/CalPolySWIFT?feature=guide"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://web.libera.chat/?channels=#swift"><i class="fa fa-wechat"></i></a></li>
+                <li><a href="https://www.linkedin.com/groups/Students-Interest-in-Future-Technology-4108262"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/CalPolySWIFT"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://discord.gg/Na5PGfp"><i class="fa icon-discord"></i></a></li>
+                <li><a href="/static/assets/images/SWIFT-snapchat-code.png"><i class="fa fa-snapchat-ghost"></i></a></li>
+              </ul>
             `,
             },
           ],
         },
-        {
-          items: [
-            {
-              html: `
-              <a href="https://www.facebook.com/CalPolySWIFT" target="_blank">
-                <img class="social-network" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png" alt="FaceBook" />
-              </a>
-            `,
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              html: `
-              <a href="https://twitter.com/calpolyswift" target="_blank">
-                <img class="social-network" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png" alt="Twitter" />
-              </a>
-            `,
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              html: `
-              <a href="https://discord.com/invite/Na5PGfp" target="_blank">
-                <img class="social-network" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/91_Discord_logo_logos-512.png" alt="Discord" />
-              </a>
-            `,
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              html: `
-              <a href="https://github.com/CalPolySWIFT" target="_blank">
-                <img class="social-network" src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_github_2-512.png" alt="GitHub" />
-              </a>
-            `,
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              html: `
-              <a href="https://www.linkedin.com/company/calpolyswift/" target="_blank">
-                <img class="social-network" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/linkedin-512.png" alt="LinkedIn" />
-              </a>
-            `,
-            },
-          ],
-        },
-
-
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus. Coded by <a href="https://lnk.bio/z7q3">Michelle Lee</a> and <a href="">Christian Falucho</a>.`,
     },
