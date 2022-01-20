@@ -84,7 +84,7 @@ module.exports = {
                 <footer>
                   <div class="container">
                     <div class="col item social">
-                      <a href="#"><FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/></a>
+                      <a style="color:white;" href="#"><i class="fab fa-linkedin-in"></i></a>
                       <a href="#"><FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/></a>
                       <a href="#"><FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/></a>
                       <a href="#"><FontAwesomeIcon icon={faLinkedin} className={styles.socialIcons}/></a>
