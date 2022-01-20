@@ -8,6 +8,7 @@
 /* You can override the default Infima variables here. */
 @import url("https://fonts.googleapis.com/css2?&family=Alatsi&display=swap");
 @import url("https://fonts.googleapis.com/css2?&family=Audiowide&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
 :root {
   --ifm-color-primary: var(--color-blue-light);
@@ -296,18 +297,10 @@ h2 a,
   padding: 0 5rem !important;
 }
 
-/* FOOTER 
+/* FOOTER */
 .footer {
-  text-align: center;
-  background-color: unset;
-  display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: stretch;
+  background-color:rgba(0, 0, 0, 0.4);
 }
-*/
 
 /* Laptop View */
 @media only screen and (max-width: 1024px) {
