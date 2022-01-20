@@ -167,7 +167,7 @@ function Quotes() {
             </div>
           </div>
           <div class={"col col--6 centered"}>
-            <img style="padding-bottom: 20px; border-radius: 50%;" src={useBaseUrl("img/Luis.jpg")}></img>
+            <img src={useBaseUrl("img/Luis.jpg")}></img>
             <div class={styles.quote}>
               <p class={styles.quoteText}>
                 “Without my involvement in Students With an Interest in the Future of
