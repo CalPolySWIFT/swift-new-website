@@ -438,6 +438,10 @@ div .swift-desc {
   margin-bottom:0;
 }
 
+.copyright{
+  text-align: center;
+}
+
 /* Fontawesome  */
 
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css');
