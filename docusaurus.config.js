@@ -73,14 +73,14 @@ module.exports = {
       ],
     },
     footer: {
-      style: 'dark',
-      logo: {
-        alt: 'Youtube Logo',
-        src: 'img/chet.png',
-        href: 'https://www.youtube.com/user/CalPolySWIFT?feature=guide',
-        width: 160,
-        height: 51,
-      },
+      // style: 'dark',
+      // logo: {
+      //   alt: 'Youtube Logo',
+      //   src: 'img/chet.png',
+      //   href: 'https://www.youtube.com/user/CalPolySWIFT?feature=guide',
+      //   width: 160,
+      //   height: 51,
+      // },
       // logo: {
       //   alt: 'Facebook Logo',
       //   src: 'img/chet.png',
