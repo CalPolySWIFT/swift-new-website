@@ -89,7 +89,7 @@ module.exports = {
                     <li class="list-inline-item"><a href="#">Terms</a></li>
                     <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
                   </ul>
-                <p class="copyright">Company Name © 2018</p>
+                <p class="copyright">Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus. Started by <a href="https://lnk.bio/z7q3">Michelle Lee</a> and <a href="">Christian Falucho</a>. Finished by the Legendary Jacob Jayme.</p>
               </footer>
               </div>
             `
@@ -97,7 +97,6 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus. Coded by <a href="https://lnk.bio/z7q3">Michelle Lee</a> and <a href="">Christian Falucho</a>.`,
     },
 
     colorMode: {
