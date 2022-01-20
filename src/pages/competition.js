@@ -11,7 +11,7 @@ function Description() {
   return (
     <div class={clsx(styles.sectionPadding, "section-background-color")}>
       <div class="container">
-        <div class={clsx(styles.sectionFixed, "margin-centered padding--xl")}>
+        <div class={clsx(styles.sectionFixed, "margin-centered padding--xs")}>
           <p>
             Students with an Interest in
             the Future of Technology is the premier information technology and
