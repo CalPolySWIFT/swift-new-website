@@ -83,57 +83,27 @@ module.exports = {
                 <img class="social-network" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/395_Youtube_logo-512.png" alt="YouTube" />
               </a>
             `,
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              html: `
+            html: `
               <a href="https://www.facebook.com/CalPolySWIFT" target="_blank">
                 <img class="social-network" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png" alt="FaceBook" />
               </a>
             `,
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              html: `
+            html: `
               <a href="https://twitter.com/calpolyswift" target="_blank">
                 <img class="social-network" src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Twitter_colored_svg-512.png" alt="Twitter" />
               </a>
             `,
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              html: `
+            html: `
               <a href="https://discord.com/invite/Na5PGfp" target="_blank">
                 <img class="social-network" src="https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/91_Discord_logo_logos-512.png" alt="Discord" />
               </a>
             `,
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              html: `
+            html: `
               <a href="https://github.com/CalPolySWIFT" target="_blank">
                 <img class="social-network" src="https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_github_2-512.png" alt="GitHub" />
               </a>
             `,
-            },
-          ],
-        },
-        {
-          items: [
-            {
-              html: `
+            html: `
               <a href="https://www.linkedin.com/company/calpolyswift/" target="_blank">
                 <img class="social-network" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/linkedin-512.png" alt="LinkedIn" />
               </a>
@@ -141,8 +111,6 @@ module.exports = {
             },
           ],
         },
-
-
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Cal Poly SWIFT. Built with Docusaurus. Coded by <a href="https://lnk.bio/z7q3">Michelle Lee</a> and <a href="">Christian Falucho</a>.`,
     },
