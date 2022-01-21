@@ -6,9 +6,6 @@
  */
 
 /* You can override the default Infima variables here. */
-@import url("https://fonts.googleapis.com/css2?&family=Alatsi&display=swap");
-@import url("https://fonts.googleapis.com/css2?&family=Audiowide&display=swap");
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
 
 :root {
   --ifm-color-primary: var(--color-blue-light);
