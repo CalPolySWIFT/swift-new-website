@@ -37,23 +37,21 @@ function Mission(){
             <div class="slides">
               <div id="slides__1" class="slide">
                 <span class="slide__text">1</span>
+                <img src="https://source.unsplash.com/11H1SSVcIxc/1600x900"></img>
                 <a class="slide__prev" href="#slides__4" title="Next"></a>
                 <a class="slide__next" href="#slides__2" title="Next"></a>
               </div>
               <div id="slides__2" class="slide">
                 <span class="slide__text">2</span>
+                <img src="https://source.unsplash.com/OlZ1nWLEEgM/1600x900"></img>
                 <a class="slide__prev" href="#slides__1" title="Prev"></a>
                 <a class="slide__next" href="#slides__3" title="Next"></a>
               </div>
               <div id="slides__3" class="slide">
                 <span class="slide__text">3</span>
+                <img src="https://source.unsplash.com/OlZ1nWLEEgM/1600x900"></img>
                 <a class="slide__prev" href="#slides__2" title="Prev"></a>
                 <a class="slide__next" href="#slides__4" title="Next"></a>
-              </div>
-              <div id="slides__4" class="slide">
-                <span class="slide__text">4</span>
-                <a class="slide__prev" href="#slides__3" title="Prev"></a>
-                <a class="slide__next" href="#slides__1" title="Prev"></a>
               </div>
             </div>
             <div class="slider__nav">
