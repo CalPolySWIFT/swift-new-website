@@ -273,7 +273,7 @@ function Seven() {
             {/* Maymoonah Mohammed */}
             <div class="col col--4 centered">
                 <img src={useBaseUrl('img/eboard/maymoonah.jpg')} className={styles.socialImg} />
-              <p className={styles.socialNames}>May M.</p>
+              <p className={styles.socialNames}>Maymoonah Mohammed</p>
               <p className={styles.ePosition}>Web Designer</p>
               <p>
                 <a href="#"> 
