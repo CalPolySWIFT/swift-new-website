@@ -6,6 +6,12 @@ import styles from "./styles.module.css";
 import {faDatabase, faHandshake, faShieldAlt} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
+// Carousel Shit
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 function Mission(){
   return(
     
@@ -29,43 +35,38 @@ function Mission(){
             </div>
           </div>
         </div>
-        <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=First slide&bg=373940"
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=282c34"
-      alt="Second slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
+        <div class="slider-container">
+          <div class="slider">
+            <div class="slides">
+              <div id="slides__1" class="slide">
+                <span class="slide__text">1</span>
+                <a class="slide__prev" href="#slides__4" title="Next"></a>
+                <a class="slide__next" href="#slides__2" title="Next"></a>
+              </div>
+              <div id="slides__2" class="slide">
+                <span class="slide__text">2</span>
+                <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                <a class="slide__next" href="#slides__3" title="Next"></a>
+              </div>
+              <div id="slides__3" class="slide">
+                <span class="slide__text">3</span>
+                <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                <a class="slide__next" href="#slides__4" title="Next"></a>
+              </div>
+              <div id="slides__4" class="slide">
+                <span class="slide__text">4</span>
+                <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                <a class="slide__next" href="#slides__1" title="Prev"></a>
+              </div>
+            </div>
+            <div class="slider__nav">
+              <a class="slider__navlink" href="#slides__1"></a>
+              <a class="slider__navlink" href="#slides__2"></a>
+              <a class="slider__navlink" href="#slides__3"></a>
+              <a class="slider__navlink" href="#slides__4"></a>
+            </div>
+          </div>
+        </div>
     </section>
   </div>
   )
