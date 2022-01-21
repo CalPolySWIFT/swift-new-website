@@ -241,9 +241,9 @@ h2 a,
 }
 
 .button:hover {
-  color: var(--color-white);
-  background-color: var(--color-blue-light) !important;
-  border-color: var(--color-blue-light);
+  color: black;
+  background-color: var(--color-white) !important;
+  border-color: var(--color-white);
 }
 
 /* Hero Banner Title */
@@ -443,3 +443,6 @@ div .swift-desc {
 
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css');
 
+.buttons_1Wc3 {
+  border-radius: 2px;
+}
