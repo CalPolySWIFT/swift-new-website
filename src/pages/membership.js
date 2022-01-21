@@ -6,7 +6,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFileAlt, faHandshake } from '@fortawesome/free-solid-svg-icons';
 import clsx from 'clsx';
 import styles from "./styles.module.css";
-import {faDiscord, faHandshake} from "@fortawesome/free-brands-svg-icons";
+import {faDiscord} from "@fortawesome/free-brands-svg-icons";
 
 function Steps() {
   return (
