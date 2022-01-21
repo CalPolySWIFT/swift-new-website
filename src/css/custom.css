@@ -444,11 +444,6 @@ div .swift-desc {
 @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css');
 
 .slider-container {
-  background: linear-gradient(
-    149deg,
-    rgb(247, 0, 255) 0%,
-    rgb(255, 145, 0) 100%
-  );
   display: flex;
   align-items: center;
   justify-content: center;
@@ -578,4 +573,16 @@ a.slide__next,
 }
 iframe[sandbox] .read-article{
   display: none;
+}
+
+.slides__1{
+  background-image: url("https://source.unsplash.com/t7YycgAoVSw/1600x900");
+}
+
+.slides__2{
+  background-image: url("https://source.unsplash.com/11H1SSVcIxc/1600x900");
+}
+
+.slides__3{
+  background-image: url("https://source.unsplash.com/OlZ1nWLEEgM/1600x900");
 }
