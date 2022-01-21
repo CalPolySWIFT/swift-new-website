@@ -19,7 +19,7 @@ function Steps() {
             <div class={styles.buttons}>
               <Link
                 class={clsx(
-                  "button button--primary button--gray-dark button-round button--lg",
+                  "button button--primary button--gray-dark button--lg",
                   styles.getStarted
                 )}
                 to={"https://discord.gg/Na5PGfp/"}
@@ -35,7 +35,7 @@ function Steps() {
             <div class={styles.buttons}>
               <Link
                 class={clsx(
-                  "button button--primary button--gray-dark button-round button--lg",
+                  "button button--primary button--gray-dark button--lg",
                   styles.getStarted
                 )}
                 to={"https://mybar.cpp.edu/organization/telecommunications"}
@@ -50,7 +50,7 @@ function Steps() {
             <FontAwesomeIcon className="faFileAlt" icon={ faFileAlt }/><br />
             <Link
                 class={clsx(
-                  "button button--primary button--gray-dark button-round button--lg",
+                  "button button--primary button--gray-dark button--lg",
                   styles.getStarted
                 )}
                 to={"https://www.eventbrite.com/e/swift-2021-2022-membership-tickets-169872480161"}
