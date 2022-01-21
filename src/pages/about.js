@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import styles from "./styles.module.css";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 import {faDatabase, faHandshake, faShieldAlt} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
