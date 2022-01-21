@@ -156,7 +156,9 @@ function Quotes() {
       <div class="container">
         <div class="row padding--lg">
           <div class={"col col--6 centered"}>
-            <img class="testomonial-image" src={useBaseUrl("img/eboard/Robinson.jpg")}className={styles.socialImg} ></img>
+            <div class="col col--4 centered">
+            <img class="testomonial-image " src={useBaseUrl("img/eboard/Robinson.jpg")}className={styles.socialImg} ></img>
+            </div>
             <div class={styles.quote}>
               <p class={styles.quoteText}>
                 “Joining SWIFT has completely changed my career trajectory. I went from
@@ -172,7 +174,9 @@ function Quotes() {
             </div>
           </div>
           <div class={"col col--6 centered"}>
-            <img class="testomonial-image" src={useBaseUrl("img/eboard/Luis.jpg")} className={styles.socialImg}></img>
+          <div class="col col--4 centered">
+            <img class="testomonial-image " src={useBaseUrl("img/eboard/Luis.jpg")}className={styles.socialImg} ></img>
+            </div>
             <div class={styles.quote}>
               <p class={styles.quoteText}>
                 “Without my involvement in Students With an Interest in the Future of
