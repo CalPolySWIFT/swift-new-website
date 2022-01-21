@@ -3,11 +3,10 @@ import Layout from '@theme/Layout';
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import Link from "@docusaurus/Link";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faCircle, faFileAlt } from '@fortawesome/free-solid-svg-icons';
+import {faFileAlt, faHandshake } from '@fortawesome/free-solid-svg-icons';
 import clsx from 'clsx';
 import styles from "./styles.module.css";
-import {fab, faTwitterSquare, faFacebook, faLinkedin, faGithub, faDiscord, faHandshake} from "@fortawesome/free-brands-svg-icons";
-import {faDatabase, faHandshake, faShieldAlt} from '@fortawesome/free-solid-svg-icons';
+import {faDiscord, faHandshake} from "@fortawesome/free-brands-svg-icons";
 
 function Steps() {
   return (
