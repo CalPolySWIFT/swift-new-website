@@ -574,3 +574,19 @@ a.slide__next,
 iframe[sandbox] .read-article{
   display: none;
 }
+
+#slides__1{
+  background-image: url("https://source.unsplash.com/t7YycgAoVSw/1600x900");
+}
+
+#slides__2{
+  background-image: url("https://source.unsplash.com/11H1SSVcIxc/1600x900");
+}
+
+#slides__3{
+  background-image: url("https://source.unsplash.com/OlZ1nWLEEgM/1600x900");
+}
+
+#slides__4{
+  background-image: url("https://source.unsplash.com/OlZ1nWLEEgM/1600x900");
+}

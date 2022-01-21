@@ -53,6 +53,12 @@ function Mission(){
                 <a class="slide__prev" href="#slides__2" title="Prev"></a>
                 <a class="slide__next" href="#slides__4" title="Next"></a>
               </div>
+              <div id="slides__4" class="slide">
+                <span class="slide__text">3</span>
+                <img src="https://source.unsplash.com/OlZ1nWLEEgM/1600x900"></img>
+                <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                <a class="slide__next" href="#slides__4" title="Next"></a>
+              </div>
             </div>
             <div class="slider__nav">
               <a class="slider__navlink" href="#slides__1"></a>
