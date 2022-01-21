@@ -31,8 +31,8 @@ function Steps() {
           </div>
           <div class="col centered padding--lg">
             <h2>STEP 2</h2>
-            <FontAwesomeIcon icon={faHandshake} className={styles.socialIcons}/> 
             <p>Join myBAR</p>
+            <FontAwesomeIcon icon={faHandshake} className={styles.socialIcons}/> 
             <div class={styles.buttons}>
               <Link
                 class={clsx(
@@ -48,7 +48,7 @@ function Steps() {
           <div class="col centered padding--lg">
             <h2>STEP 3</h2>
             <p>Complete Registration</p>
-            <FontAwesomeIcon className="faFileAlt" icon={ faFileAlt }/><br />
+            <FontAwesomeIcon className="faFileAlt" icon={ faFileAlt } className={styles.socialIcons}/><br />
             <Link
                 class={clsx(
                   "button button--primary button--gray-dark button--lg button-round",
