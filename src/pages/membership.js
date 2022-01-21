@@ -13,6 +13,8 @@ function Steps() {
     <div class={clsx(styles.sectionPadding)}>
       <div class="container">
         
+        <img src={useBaseUrl("img/community.jpg")} alt="Community" />
+        
         <div class="row">
           <div class="col centered padding--lg">
             <h2>STEP 1</h2>
@@ -57,7 +59,7 @@ function Steps() {
                 )}
                 to={"https://www.eventbrite.com/e/swift-2021-2022-membership-tickets-169872480161"}
               >
-              Membership Fees
+              Fees
             </Link>
           </div>
         </div>
@@ -70,9 +72,7 @@ function Benefits() {
   return (
     <div class={clsx(styles.sectionPadding, "section-background-color")}>
       <div class="container">
-        <div class="col fixed-img">
-          <img src={useBaseUrl("img/community.jpg")} alt="Event" />
-        </div>
+        
         <h2 class="centered">Benefits</h2>
         <div class={"row"}>
           <div class={"col col--4 centered"}>

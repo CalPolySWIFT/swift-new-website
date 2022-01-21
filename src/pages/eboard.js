@@ -292,7 +292,7 @@ return (
         <section >
           <div class="row core-values">
             {/* Melvin Karuga */}
-            <div class="col col-- 4 centered">   
+            <div class="col col--4 centered">   
               <img src={useBaseUrl('img/eboard/Melvin.jpg')} className={styles.socialImg} style={{height: "240px"}} />
               <p className={styles.socialNames}>Melvin Karuga</p>
               <p className={styles.ePosition}>Graphic Designer</p>
