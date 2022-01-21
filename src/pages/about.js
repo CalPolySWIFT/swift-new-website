@@ -34,7 +34,7 @@ function Mission(){
           </div>
         </div>
         <div class="row">
-        <div class="col fixed-img">
+          <div class="col fixed-img">
             <img src={useBaseUrl("img/swiftacademy.jpg")} alt="Event" />
           </div>
         </div>

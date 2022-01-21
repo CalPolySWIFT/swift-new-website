@@ -12,6 +12,7 @@ function Steps() {
   return (
     <div class={clsx(styles.sectionPadding)}>
       <div class="container">
+        
         <div class="row">
           <div class="col centered padding--lg">
             <h2>STEP 1</h2>
@@ -69,6 +70,9 @@ function Benefits() {
   return (
     <div class={clsx(styles.sectionPadding, "section-background-color")}>
       <div class="container">
+        <div class="col fixed-img">
+          <img src={useBaseUrl("img/community.jpg")} alt="Event" />
+        </div>
         <h2 class="centered">Benefits</h2>
         <div class={"row"}>
           <div class={"col col--4 centered"}>
@@ -152,7 +156,7 @@ function Quotes() {
       <div class="container">
         <div class="row padding--lg">
           <div class={"col col--6 centered"}>
-            <img class="testomonial-image" src={useBaseUrl("img/eboard/Robinson.jpg")}></img>
+            <img class="testomonial-image" src={useBaseUrl("img/eboard/Robinson.jpg")}className={styles.socialImg} ></img>
             <div class={styles.quote}>
               <p class={styles.quoteText}>
                 “Joining SWIFT has completely changed my career trajectory. I went from
@@ -168,7 +172,7 @@ function Quotes() {
             </div>
           </div>
           <div class={"col col--6 centered"}>
-            <img class="testomonial-image" src={useBaseUrl("img/eboard/Luis.jpg")}></img>
+            <img class="testomonial-image" src={useBaseUrl("img/eboard/Luis.jpg")} className={styles.socialImg}></img>
             <div class={styles.quote}>
               <p class={styles.quoteText}>
                 “Without my involvement in Students With an Interest in the Future of
