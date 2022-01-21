@@ -7,10 +7,7 @@ import {faDatabase, faHandshake, faShieldAlt} from '@fortawesome/free-solid-svg-
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 // Carousel Shit
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from 'react-responsive-carousel';
+
 
 function Mission(){
   return(
