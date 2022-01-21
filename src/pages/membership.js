@@ -32,7 +32,7 @@ function Steps() {
             <h2>STEP 2</h2>
             <p>Join myBAR</p>
             <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="40px" height="60px" viewBox="0 0 300.000000 200.000000"
+ width="120px" height="280px" viewBox="0 0 300.000000 200.000000"
  preserveAspectRatio="xMidYMid meet">
 <g transform="translate(0.000000,200.000000) scale(0.100000,-0.100000)"
 fill="#000000" stroke="none">
