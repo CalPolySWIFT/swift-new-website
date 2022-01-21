@@ -13,7 +13,7 @@ function Steps() {
     <div class={clsx(styles.sectionPadding)}>
       <div class="container">
         
-        <img src={useBaseUrl("img/community.jpg")} alt="Community" />
+        <img src={useBaseUrl("img/community.jpg")} alt="Community" className={styles.socialImg}/>
         
         <div class="row">
           <div class="col centered padding--lg">
