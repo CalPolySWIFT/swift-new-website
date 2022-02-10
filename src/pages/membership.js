@@ -6,15 +6,15 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faFileAlt, faHandshake } from '@fortawesome/free-solid-svg-icons';
 import clsx from 'clsx';
 import styles from "./styles.module.css";
-import {faDiscord} from "@fortawesome/free-brands-svg-icons";
+import {faDiscord, faUserFriends} from "@fortawesome/free-brands-svg-icons";
 
 function Steps() {
   return (
     <div class={clsx(styles.sectionPadding)}>
-      <div class="container">
-        
-        <img src={useBaseUrl("img/community.jpg")} alt="Community" className={styles.socialImg}/>
-        
+      <div class="container">        
+        <div>
+          <img src={useBaseUrl("img/community.jpg")} alt="Community" className={styles.socialImg}/>
+        </div>
         <div class="row">
           <div class="col centered padding--lg">
             <h2>STEP 1</h2>
@@ -72,48 +72,71 @@ function Benefits() {
   return (
     <div class={clsx(styles.sectionPadding, "section-background-color")}>
       <div class="container">
-        
-        <h2 class="centered">Benefits</h2>
-        <div class={"row"}>
-          <div class={"col col--4 centered"}>
-            <h2 class="text--center">Community</h2>
-            <p class="text--center">Be part of a large community of students spanning over 20 years.</p>
-            <p class="text--center">Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
-          </div>
-          <div class={"col col--4"}>
-            <div class={clsx(styles.logoFixedHeight)}>
-              <img src={useBaseUrl("img/logo_only_white.png")} alt="Event" />
+      <h2 class="centered">Benefits</h2><br/>
+    {/* Row 1*/}
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <p><i class="fa fa-users benefits"></i></p>
+              <h3>Community</h3>
+              <hr/>
+              <p>Be part of a large community of students spanning over 20 years.
+              Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
             </div>
           </div>
-          <div class={"col col--4 centered"}>
-            <h2 class="text--center">Engaging Presentations</h2>
-            <p class="text--center">Come to one of our presentations and witness the greatness of orbital weapons.</p>
-            <p class="text--center">Chet Apichart is waiting for you....</p>
+
+        {/*Swift Logo*/}
+        <div class="column">
+          <div class="card benefitsLogo">
+            <img class="benefitsLogo" src={useBaseUrl("img/logo_only_white.png")} alt="swift logo" />
           </div>
         </div>
-        <div class={"row"}>
-          <div class={"col col--4"}>
-            <h2 class="text--center">Giveaways</h2>
-            <div>
-              <p class="text--center">Free food at meetings</p>
-              <p class="text--center">Free T-Shirts, Stickers, Webcam Covers, and Other Swag</p>
+
+
+          <div class="column">
+            <div class="card">
+              <p><i class="fa fa-calendar benefits"></i></p>
+              <h3>Events</h3>
+              <hr/>
+              <p>Access and discounts to conferences and events.
+              Access to workshops and events throughout the year.
+              Free attendance to Tech Symposium.
+              Go on tours to organizations focusing on System Administration and Cyber Security</p>
             </div>
           </div>
-          <div class={"col col--4"}>
-            <h2 class="text--center">Events</h2>
-            <div>
-              <p class="text--center"> Access and discounts to conferences and events</p>
-              <p class="text--center"> Access to workshops and events throughout the year </p>
-              <p class="text--center"> Free attendance to Tech Symposium</p>
-              <p class="text--center"> Go on tours to organizations focusing on System Administration and Cyber Security</p>
+        </div>
+      {/* Row 2*/}
+        <br/>
+        <div class="row">
+          <div class="column">
+            <div class="card">
+              <p><i class="fa fa-trophy benefits"></i></p>
+              <h3>Competitions</h3>
+              <hr/>
+              <p>Participate in competitions:
+              Participate in Collegiate Penetration Testing Competition (CPTC).
+              Participate in Collegiate Cyber Defense Competition (CCDC).</p>
             </div>
           </div>
-          <div class={"col col--4"}>
-            <h2 class="text--center">Competition</h2>
-            <div>
-              <p class="text--center">Participate in competitions:</p>
-              <p class="text--center"> Participate in Collegiate Penetration Testing Competition (CPTC)</p>
-              <p class="text--center"> Participate in Collegiate Cyber Defense Competition (CCDC)</p>
+
+          <div class="column">
+            <div class="card">
+              <p><i class="fa fa-gift benefits"></i></p>
+              <h3>Giveaways</h3>
+              <hr/>
+              <p>Free food at meetings.
+              Free T-Shirts, Stickers, Webcam Covers, and Other Swag.</p>
+            </div>
+          </div>
+
+          <div class="column">
+            <div class="card">
+              <p><i class="fa fa-desktop benefits"></i></p>
+              <h3>Presentations</h3>
+              <hr/>
+              <p>Come to our weekly meetings where we present and discuss topics focusing on cyber security, 
+              networking, system administration, and automation.<br/>
+              We host peers and industry leaders in the field to give our members an insight to the professional world of technology.</p>
             </div>
           </div>
         </div>
