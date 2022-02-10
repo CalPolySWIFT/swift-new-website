@@ -450,3 +450,59 @@ div .swift-desc {
 .testomonial-image {
   padding-bottom: 80px;
 }
+
+/*Swift Benefits Section*/
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 5px;
+}
+
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #484a4c;
+  color: white;
+  height: 400px;
+}
+
+.card hr {
+  opacity: 30%;
+}
+
+.fa {
+  font-size:50px;
+}
+
+i.benefits {
+  margin-top: 15px;
+}
+
+.benefitsLogo {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  background-color: inherit;
+}
