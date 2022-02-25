@@ -104,12 +104,10 @@
 }
 
 .socialImg {
-  height: 200px;
-  width: 200px;
-  border-radius: 50%;
+  height: 50%;
+  border-radius: 10px;
   box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
-  max-width: none;
 }
 
 .ePosition {
