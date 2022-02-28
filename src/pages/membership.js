@@ -180,7 +180,7 @@ function Quotes() {
         <div class="row padding--lg">
           <div class={"col col--6 centered"}>
             <div class="col col--4 centered">
-            <img class="testomonial-image" src={useBaseUrl("img/eboard/Robinson.jpg")} className={styles.socialImg} ></img>
+            <img className="testimonial-image" src={useBaseUrl("img/eboard/Robinson.jpg")}></img>
             </div>
             <div class={styles.quote}>
               <p class={styles.quoteText}>
@@ -198,7 +198,7 @@ function Quotes() {
           </div>
           <div class={"col col--6 centered"}>
           <div class="col col--4 centered">
-            <img class="testomonial-image " src={useBaseUrl("img/eboard/Luis.jpg")}className={styles.socialImg} ></img>
+            <img className="testimonial-image " src={useBaseUrl("img/eboard/Luis.jpg")}></img>
             </div>
             <div class={styles.quote}>
               <p class={styles.quoteText}>
