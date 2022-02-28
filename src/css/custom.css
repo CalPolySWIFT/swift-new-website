@@ -447,8 +447,8 @@ div .swift-desc {
   border-radius: 2px;
 }
 
-.testomonial-image {
-  padding-bottom: 80px;
+.testimonial-image {
+  border-radius: 50%;
 }
 
 /*Swift Benefits Section*/
