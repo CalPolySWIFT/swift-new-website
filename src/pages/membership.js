@@ -12,19 +12,6 @@ function Steps() {
   return (
     <div class={clsx(styles.sectionPadding)}>
       <div class="container">        
-        {/*Image Carousel*/}
-
-        <div id="slider">
-          <figure>
-            <img src={useBaseUrl("img/community.jpg")} alt=""/>
-            <img src={useBaseUrl("img/ccdc.jpg")} alt=""/>
-            <img src={useBaseUrl("img/FragNite.jpg")} alt=""/>
-            <img src={useBaseUrl("img/trophies.jpg")} alt=""/>
-          </figure>
-        </div>
-
-         {/* End of Image Carousel*/}
-
         <div class="row">
           <div class="col centered padding--lg">
             <h2>STEP 1</h2>
