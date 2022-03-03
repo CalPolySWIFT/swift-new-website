@@ -14,11 +14,13 @@ function ContactUs() {
             <div className={styles.message}>
               <h1 className={styles.heading}>Get in touch</h1>
               <p>
-              Whether you're a student, alumni, faculty, or company we’d love to hear from you! 
+                Whether you're a student, alumni, faculty, or company we’d love to hear from you!<br />
+                Please email us at <a href="mailto:eboard@calpolyswift.org" className={styles.email}>eboard@calpolyswift.org</a>
               </p>
-              <p> Please email us at <a href="mailto:eboard@calpolyswift.org" className={styles.email}>eboard@calpolyswift.org</a></p>
             </div>
           </div>
+        </div>
+        <div class="row padding--lg">
           <div class={"col col--6 centered"}>
             <div className={styles.message}>
             <h1 className={styles.heading}>Visit us</h1>
