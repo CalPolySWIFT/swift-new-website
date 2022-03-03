@@ -23,15 +23,13 @@ function ContactUs() {
             <div className={styles.message}>
             <h1 className={styles.heading}>Visit us</h1>
               <p>
-                Due to COVID-19 restrictions, we are currently not meeting on campus. All of our meetings are 
-                conducted virtually. Join our discord for more information on our weekly meetings and workshops.
+                Come to our General SWIFT meetings and workshops at building 163 Room 1005! If you cannot join in person, join us through zoom. 
+                For more information, join our discord!
               </p>
-            
             </div>
           </div>
         </div>
       </div>
-   
   );
 }
 
