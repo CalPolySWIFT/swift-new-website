@@ -7,14 +7,26 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 import {faDatabase, faHandshake, faShieldAlt} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
-// Carousel Shit
-
 
 function Mission(){
   return(
     
     <div class={clsx(styles.sectionPadding)}>
       <section class="container">
+        <div class="row">
+          <div class="col col--12 centered">
+            {/*Image Carousel*/}
+            <div id="slider">
+              <figure>
+                <img src={useBaseUrl("img/community.jpg")} alt=""/>
+                <img src={useBaseUrl("img/ccdc.jpg")} alt=""/>
+                <img src={useBaseUrl("img/FragNite.jpg")} alt=""/>
+                <img src={useBaseUrl("img/trophies.jpg")} alt=""/>
+              </figure>
+            </div>
+          </div>
+        </div>
+        {/* End of Image Carousel*/}
         <div class="row">
           <div class="col col--12 centered">
             {/* <FontAwesomeIcon icon={faDatabase} class={clsx("core-icons")} /> */}
@@ -31,11 +43,6 @@ function Mission(){
                 and many other companies.
               </p>
             </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col fixed-img">
-            <img src={useBaseUrl("img/swiftacademy.jpg")} alt="Event" />
           </div>
         </div>
     </section>
