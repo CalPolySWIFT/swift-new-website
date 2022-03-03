@@ -90,7 +90,7 @@ function Benefits() {
               <p><i class="fa fa-users benefits"></i></p>
               <h3>Community</h3>
               <hr/>
-              <p>Be part of a large community of students spanning over 20 years.
+              <p>Be part of a large community of students spanning over 30 years.
               Join a Discord server with 700+ members of current students, alumni, and mentors.</p>
             </div>
           </div>
