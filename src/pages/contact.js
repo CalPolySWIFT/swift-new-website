@@ -19,8 +19,6 @@ function ContactUs() {
               </p>
             </div>
           </div>
-        </div>
-        <div class="row padding--lg">
           <div class={"col col--6 centered"}>
             <div className={styles.message}>
             <h1 className={styles.heading}>Visit us</h1>
