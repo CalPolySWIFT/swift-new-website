@@ -48,7 +48,7 @@ function Steps() {
           <div class="col centered padding--lg">
             <h2>STEP 3</h2>
             <p>Complete Registration</p>
-            <FontAwesomeIcon className="faFileAlt" icon={ faFileAlt } className={styles.socialIcons}/><br />
+            <FontAwesomeIcon className="faFileAlt" icon={ faFileAlt } className={styles.socialIcons}/>
             <Link
                 class={clsx(
                   "button button--primary button--gray-dark button--lg button-round",
