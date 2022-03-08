@@ -33,7 +33,7 @@ function CoreValues() {
             <FontAwesomeIcon icon={faDatabase} className={clsx(styles.sectionIcon)}/>
             <div class={clsx("padding--sm centered")}>
               <h2>System Administration</h2>
-              <p className="swift-desc">Want to get started with the basics of Linux and Windows? We got you covered! You will learn what it takes to be a sysadmin and acquire all the skills to build your own lab.</p>
+              <p className="swift-desc">Do you want to get started with the basics of Linux and Windows? We got you covered! You will learn what it takes to be a sysadmin and acquire all the skills to build your own lab.</p>
             </div>
           </div>
         </div>
